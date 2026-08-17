@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+
+videos/*
+!videos/.gitkeep
+
+outputs/*
+!outputs/.gitkeep
+
+.vscode/
+.idea/
+
+.env
