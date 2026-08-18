@@ -18,7 +18,12 @@ visualizer = Visualizer()
 # Open Video
 # -----------------------------------
 
-cap = cv2.VideoCapture("videos/traffic.mp4")
+# Use 0 for webcam
+# Use "videos/traffic.mp4" for a video file
+
+VIDEO_SOURCE = 0
+
+cap = cv2.VideoCapture(VIDEO_SOURCE)
 
 if not cap.isOpened():
     print("Could not open video.")
